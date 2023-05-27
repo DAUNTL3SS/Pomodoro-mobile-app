@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="440dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:layout_marginTop="60dp">
+
+    <TextView
+        android:id="@+id/welcomedialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="35dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#606CF0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#606CF0"
+        android:text="What is the pomodoro technique?"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#606CF0"
+        android:text="The pomodoro technique is a time management method where the timer is used to break the work into 25 minute intervals, separated by short breaks."
+        android:textSize="13dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#606CF0"
+        android:text="How to use?"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#606CF0"
+        android:text="Step 1: Choose a task you want to complete.\nStep 2: Set the timer for 25 minutes.\nStep 3: Work on your task until your timer rings.\nStep 4: Take a short 5 minute break. \nStep 5: Repeat 4 more times.\nStep 6: Take a longer 15-30 minute break."
+        android:textSize="13dp"/>
+
+
+</LinearLayout>

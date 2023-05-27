@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login"
+    tools:context=".PomodoroLayout">
+
+    <TextView
+        android:id="@+id/pomodoro_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="27dp"
+        android:text="Pomodoro\n     timer"
+        android:layout_centerHorizontal="false"
+        android:textSize="35dp"
+        android:textColor="@android:color/holo_blue_light" />
+    <TextView
+        android:id="@+id/tasktv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TASK:"
+        android:layout_below="@id/pomodoro_timer"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_light"/>
+
+
+    <TextView
+        android:id="@+id/timer_tv"
+        android:layout_width="136dp"
+        android:layout_height="69dp"
+        android:text="25:00"
+        android:textColor="@color/black"
+        android:layout_marginLeft="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/start_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timer_tv"
+        android:layout_marginLeft="150dp"
+        android:text="START"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timer_tv"
+        android:layout_toEndOf="@id/start_pause"
+        android:layout_marginLeft="15dp"
+        android:text="RESET"
+        android:visibility="invisible"
+        tools:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/lightsensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text=""/>
+
+
+
+
+
+</RelativeLayout>
